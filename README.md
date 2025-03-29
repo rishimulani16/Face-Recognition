@@ -52,9 +52,19 @@ python train.py
 python recognize.py
 ```
 
+## 📸 Demo
+![Demo](https://your-demo-link.com/demo.gif)
+
+
+![Screenshot 2025-03-28 190002](https://github.com/user-attachments/assets/bb8e492a-135c-4af7-bfae-0b4521c3c4ed)
+![Screenshot 2025-03-28 190545](https://github.com/user-attachments/assets/22421579-6db8-44a8-9c5b-4952daf6b309)
+![Screenshot 2025-03-28 190158](https://github.com/user-attachments/assets/8939f163-7315-4086-b023-54c857cc3db3)
+![Screenshot 2025-03-28 190417](https://github.com/user-attachments/assets/ddf3a272-1ceb-451a-bf10-ecbc53ee5c7a)
+![Screenshot 2025-03-28 190311](https://github.com/user-attachments/assets/9ece9f81-6ec0-4805-92e8-5b78dbedc1d4)
+
+
 ## 🏆 Results
 - Results achieved using KNN for face classification.
 - Stores and retrieves faces efficiently for recognition.
 - Works well in **real-time environments** with minimal lag.
-
 
