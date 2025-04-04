@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import pickle
 import os
+import random
 
 if not os.path.exists('data'):
     os.makedirs('data')
@@ -20,7 +21,8 @@ while True:
     for (x, y, w, h) in faces:
         crop = frame[y:y+h, x:x+w, :]
         resized_img = cv2.resize(crop, (50, 50))
-        if len(faces_data)<=100 and i%10==0:
+        
+        if len(faces_data) <= 100 and random.randint(0, 9) < 3:  # 30% chance
             faces_data.append(resized_img)
         i=i+1
         cv2.putText(frame,str(len(faces_data)),(x,y),cv2.FONT_HERSHEY_SIMPLEX,1,(50,50,255),2)
